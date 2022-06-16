@@ -1,0 +1,52 @@
+/* website display in phone*/
+/* body{
+    background-color: red;
+} */
+
+#navbar{
+flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+ }
+
+#home{
+height: 393px;
+padding: 3px 150px;
+}
+#home::before{
+    height: 590px;
+    }
+#home p{
+      font-size: 13px;
+        }
+
+#services{
+    flex-direction: column;/* for services come in column wise*/
+}
+
+#services .box{
+
+}
+
+#clients{
+overflow: hidden;/*hide content which not coming in area.*/
+}
+
+#contact{
+
+}
+
+footer{
+
+}
+
+.h-primary{
+    font-size: 46px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
